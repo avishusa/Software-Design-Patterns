@@ -1,0 +1,41 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Compiled files
+*.class
+
+# Build directories
+/out/
+/target/
+/build/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Java-specific
+*.jar
+*.war
+*.ear
+
+# Gradle (if used)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven (if used)
+.mvn/
+!**/src/**/application.properties
+!**/src/**/application.yml
+pom.xml.versionsBackup
+
+# Node.js (if full-stack or frontend exists)
+node_modules/
+
+# Mac/Linux swap files
+*~
+*.swp
